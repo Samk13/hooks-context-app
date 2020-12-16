@@ -1,15 +1,11 @@
-import logo from "./logo.svg";
-// import './App.css';
+import Navbar from "./components/navbar";
+import BookList from "./components/bookList";
 
 function App() {
   return (
-    <div className="bg-gray-800">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className="container mx-auto">
+      <Navbar />
+      <BookList />
     </div>
   );
 }
